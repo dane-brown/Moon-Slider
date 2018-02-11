@@ -1,0 +1,28 @@
+.moon-slider {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 25px;
+}
+.moon-slider .moon-item {
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+}
+.moon-slider .moon-item img {
+  width: 100%;
+  height: 100%;
+}
+.moon-slider .moon-item.moon-child {
+  opacity: 0;
+}
+.moon-slider .moon-item.moon-active {
+  opacity: 1 !important;
+}
